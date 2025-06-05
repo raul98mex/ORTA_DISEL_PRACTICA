@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const validPassword = '1234';
 
     if (username === validUsername && password === validPassword) {
-      window.location.href = 'index.html';
+      window.location.href = 'login.html';
     } else {
       errorMsg.style.display = 'block'; // Show the error message
     }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menú Disel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body class="with-sidebar">
+    <div class="navbar">
+        <button class="menu-toggle" id="menubrg">☰</button>
+        <a href="perfil.html" class="profile-link active">
+            <span class="profile-icon">&#128100;</span>
+            Mi Perfil
+        </a>
+    </div>
+
+
+    <div class="workspace">
+    <section class="MainTitle">
+      <h1 class="work-section">Mi perfil </h1>
+      <hr class="line"/>
+     <p class="work-section">Mi perfil</p>
+
+     
+       <button class="cerrarsesionbtn" id="logoutBtn">Cerrar sesión</button>
+     
+      </section>
+
+    </div>
+
+    <div class="sidebar">
+        <a href="index.html">
+            <img class="logo" src="images/logo-Photoroom.png" alt="logo">
+        </a>
+        <button class="menu-item" data-target="submenu-disel">
+            <span>Disel</span>
+            <span id="arrow" class="arrow">&#9654;</span>
+        </button>
+        <div class="submenu" id="submenu-disel">
+            <a href="solicitud.html">Solicitud de Disel</a>
+            <a href="carga.html">Carga de Disel</a>
+        </div>
+        <div class="navfoot">
+        Propiedad de:<br>
+        Transportes orta S.A. de C.V
+        </div>
+        <button class="menu-item" data-target="submenu-facturacion">
+            <span>Facturación</span>
+            <span id="arrow-facturacion" class="arrow">&#9654;</span>
+        </button>
+        <div class="submenu" id="submenu-facturacion">
+            <a href="#solicitud">Compras</a>
+            <a href="#carga">Pagos</a>
+        </div>
+    </div>
+<script src="login2.js"></script>
+</body>
+</html>
